@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificando</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="contaner">
+        <div class="contaner2">
+            <label for="mensagem">Escreva aqui sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="40" rows="10"></textarea>
+
+            <select name="codigo" id="codigo">
+                <option value="">Escolha uma Criptografia</option>
+                <option value="base64">Base64</option>
+                <option value="cesar">Cifra de César</option>
+            </select>
+        
+        
+            <div class="divChave">
+                <label for="chave">Escolha o incremento:</label>
+                <input type="number" id="chave" value="1" min="0" max="25" >
+            </div>
+
+        </div>
+        <div class="contaner2">
+            <div class="contaner3">
+                <label for="codificar"><input type="radio" name="cod" class="radio" id="cod">Criptografar</label>
+                <label for="decodificar"><input type="radio" name="cod" class="radio" id="decod">Descriptografar</label>
+                <div class="botaoResultado" id="botaoResultado"></div>
+            </div>
+            <label for="resultado">Resultado:</label>
+            <textarea name="Resultado" id="resultado" cols="40" rows="10"></textarea>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

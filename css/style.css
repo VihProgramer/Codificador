@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../img/background.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+}
+
+.contaner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+    background-image: url(../img/background2.png);
+    background-position: center;
+    background-size: 115% 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 550px;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+
+.contaner2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.contaner2 textarea{
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid;
+    resize: none;
+    height: 100px;
+}
+.contaner2 select{
+    background-color: transparent;
+    border: 1px solid;
+    text-align: center;
+    margin-top: 10px;
+}
+select option{
+    background-color: rgba(206, 156, 86, 1.0);
+}
+
+.contaner3{
+    display: flex;
+    align-items: center;
+}
+
+.contaner3 input{
+    accent-color: black;
+}
+.contaner3 label{
+    display: flex;
+    margin-right: 5px;
+}
+
+.divChave{
+    display: none;
+    margin: 10px;
+}
+.divChave input{
+    background-color: transparent;
+}
