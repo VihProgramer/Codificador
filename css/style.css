@@ -10,9 +10,8 @@ body{
     align-items: center;
     height: 100vh;
     background-image: url(../img/background.gif);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: 300px;
 }
 
 .contaner{
